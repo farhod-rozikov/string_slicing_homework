@@ -6,9 +6,4 @@ def main(s):
     Returns:
         str: answer
     """
-    if len(s) >4:
-        return s[0:4]
-    else:
-        return s
-
-print(main('hel'))
+    return s[:4]
