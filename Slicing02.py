@@ -7,9 +7,9 @@ def main(s):
         str: answer
     """
     if len(s) > 4:
-        return s[-5:-1]
+        return s[-4:-1] + s[-1]
     else:
         return s
 
-print(main('hel'))
+print(main('hello'))
 
