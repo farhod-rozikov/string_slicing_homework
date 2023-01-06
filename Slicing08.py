@@ -7,4 +7,3 @@ def main(s):
         str: answer
     """
     return s[1::2]
-print(main('hello'))
