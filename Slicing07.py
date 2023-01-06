@@ -8,4 +8,3 @@ def main(s,n):
         str: answer
     """
     return s[:-n]
-print(main('hello', 2))
