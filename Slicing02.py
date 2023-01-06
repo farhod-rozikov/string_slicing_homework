@@ -6,10 +6,4 @@ def main(s):
     Returns:
         str: answer
     """
-    if len(s) > 4:
-        return s[-4:-1] + s[-1]
-    else:
-        return s
-
-print(main('hello'))
-
+    return s[-4:]
